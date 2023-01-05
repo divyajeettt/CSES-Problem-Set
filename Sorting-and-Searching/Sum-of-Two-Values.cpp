@@ -29,7 +29,7 @@ int main() {
         auto limit = lower_bound(positions, positions+n, p, comp);
 
         if (limit->first <= n && positions[i].second + limit->second == x && positions[i].first != limit->first) {
-            cout << positions[i].first << " " << limit->first;
+            cout << positions[i].first << " " << limit->first << endl;
             return 0;
         }
     }

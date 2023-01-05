@@ -49,7 +49,7 @@ int main() {
                 && pi.second + pj.second + limit->second == x
                 && checkUnique(pi.first, pj.first, limit->first)
             ) {
-                    cout << pi.first << " " << pj.first << " " << limit->first;
+                    cout << pi.first << " " << pj.first << " " << limit->first << endl;
                     return 0;
             }
         }
