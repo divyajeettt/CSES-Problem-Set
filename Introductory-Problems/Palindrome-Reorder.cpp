@@ -25,7 +25,7 @@ int main() {
         return 0;
     }
 
-    char ans[n+1];
+    char ans[n + 1];
     ans[n] = '\0';
 
     int i = 0;
@@ -36,7 +36,6 @@ int main() {
             item.second -= 2;
             i++;
         }
-
         if (item.second == 1) ans[n/2] = item.first;
     }
 

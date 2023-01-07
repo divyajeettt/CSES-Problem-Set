@@ -7,11 +7,6 @@ static int MOVES = 0;
 vector<pair<int, int>> moves;
 
 
-void print(pair<int, int> move) {
-    cout << move.first << " " << move.second << endl;
-}
-
-
 void addMove(int a, int b) {
     moves.push_back({a, b});
     MOVES++;
@@ -36,5 +31,5 @@ int main() {
 
     cout << MOVES << endl;
 
-    for (auto move : moves) print(move);
+    for (auto move : moves) cout << move.first << " " << move.second << endl;
 }

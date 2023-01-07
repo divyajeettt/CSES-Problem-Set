@@ -8,14 +8,14 @@ int main() {
     cin >> n >> x;
 
     ll p[n];
-    for (ll i=0; i < n; i++) {
+    for (ll i = 0; i < n; i++) {
         cin >> p[i];
     }
 
     sort(p, p+n);
 
     ll allotted[n];
-    for (ll i=0; i < n; i++) {
+    for (ll i = 0; i < n; i++) {
         allotted[i] = 0;
     }
 
@@ -31,7 +31,7 @@ int main() {
         else j--;
     }
 
-    for (ll i=0; i < n; i++) {
+    for (ll i = 0; i < n; i++) {
         if (allotted[i] == 0) count++;
     }
 
