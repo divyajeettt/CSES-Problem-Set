@@ -31,8 +31,7 @@ int main() {
             counter++;
             if (counter > maxCounter) maxCounter = counter;
         }
-        else
-            counter--;
+        else counter--;
     }
 
     cout << maxCounter << endl;
